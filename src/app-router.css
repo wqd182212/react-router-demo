@@ -1,0 +1,35 @@
+:root {
+    --first-color: #1890ff;
+    --second-color: #e6f7ff;
+    font-size: 16px;
+    --bg-color: #f5f5f5;
+}
+.page {
+    display: flex;
+    height: 100vh;
+    font-size: 1rem;
+}
+.content {
+    width: calc(100% - 200px);
+}
+.book-top {
+    height: 40px;
+    background-color: var(--bg-color);
+    color: var(--first-color);
+    margin-top: 4px;
+}
+.book-top ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.book-top ul li {
+    display: inline-block;
+    margin-left: 1em;
+}
+.book-content {
+    height: calc(100vh - 40px - 4px);
+}
